@@ -10,6 +10,7 @@ public class MySimpleStack implements SimpleStack{
 
     Stack<Object> wrappedStack = new Stack<Object>();
 
+    /* Un commentaire répondant à l'exigence #3*/
     @Override
     public boolean isEmpty() {
         return wrappedStack.isEmpty();
