@@ -13,6 +13,7 @@ public class ItemTest extends TestCase {
         item = new Item(2);
     }
 
+    @Test
     public void testConstruct() throws Exception {
         assertEquals(2,item.getVal());
     }
